@@ -1,0 +1,56 @@
+@import "_generals.scss";
+@import "_mixin.scss";
+@import "_variables.scss";
+.style {
+    display: inline-block;
+    border-radius: 5px;
+    background: #666;
+    color: white;
+    padding: 5px;
+}
+
+.example {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.exampleBlack {
+    background-color: black;
+    color: white;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    ul {
+        display: flex;
+        background-color: black;
+        color: white;
+        li {
+            padding: 1rem;
+            list-style: none;
+        }
+        button {
+            background-color: green;
+            color: white;
+        }
+    }
+}
+
+
+/*-----------------*/
+
+form {
+    padding: 5px;
+    display: inline-block;
+    background: #999;
+    border-radius: 5px;
+}
+
+input {
+    background: #333;
+    color: white;
+}
